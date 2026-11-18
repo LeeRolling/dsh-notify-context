@@ -1,4 +1,4 @@
-# dsh-plugin-desktop-notify bundle patch layer.
+# dsh-notify-context bundle patch layer.
 #
 # Contributes one host row for this package. The host half is an empty Cordis
 # plugin: it exists so the Loader has an entry to scan. client-modules finds the
@@ -6,4 +6,4 @@
 # half (the notification watcher) into the client boot graph.
 - insert:
     - id: plugin-desktop-notify
-      name: 'dsh-plugin-desktop-notify'
+      name: 'dsh-notify-context'

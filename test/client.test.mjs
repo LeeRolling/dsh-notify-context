@@ -34,7 +34,7 @@ let loaded = null
 globalThis.window.__ModuleLoader__ = { load(spec) { loaded = spec } }
 new Function(readFileSync(SRC, 'utf8'))()
 if (!loaded) throw new Error('bundle never registered itself via __ModuleLoader__.load')
-if (loaded.id !== 'dsh-plugin-desktop-notify') throw new Error('bundle registered under the wrong id: ' + loaded.id)
+if (loaded.id !== 'dsh-notify-context') throw new Error('bundle registered under the wrong id: ' + loaded.id)
 
 const exports = loaded.factory(() => { throw new Error('unexpected require') })
 const handlers = new Map()

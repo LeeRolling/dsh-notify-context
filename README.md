@@ -1,4 +1,4 @@
-# dsh-plugin-desktop-notify
+# dsh-notify-context
 
 上下文感知的桌面通知插件，给 DSH 补上官方客户端缺失的通知能力。
 
@@ -37,7 +37,7 @@
 ```sh
 dsh plugin --profile desktop add link:<本目录>
 # 或从仓库装：
-dsh plugin --profile desktop add github:LeeRolling/dsh-plugin-desktop-notify
+dsh plugin --profile desktop add github:LeeRolling/dsh-notify-context
 ```
 
 本目录已声明 `dsh.bundle.patch` + `dsh.client`，装完**重启客户端**生效。
@@ -46,7 +46,7 @@ dsh plugin --profile desktop add github:LeeRolling/dsh-plugin-desktop-notify
 ## 卸载
 
 ```sh
-dsh plugin --profile desktop remove dsh-plugin-desktop-notify
+dsh plugin --profile desktop remove dsh-notify-context
 ```
 
 ## 结构

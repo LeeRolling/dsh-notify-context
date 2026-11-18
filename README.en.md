@@ -1,4 +1,4 @@
-# dsh-plugin-desktop-notify
+# dsh-notify-context
 
 Context-aware desktop notifications for DeepSeek Harness — filling the gap left by
 the official client, which has no notification feature at all.
@@ -46,7 +46,7 @@ design nothing pops.
 ```sh
 dsh plugin --profile desktop add link:<this directory>
 # or from the repository:
-dsh plugin --profile desktop add github:LeeRolling/dsh-plugin-desktop-notify
+dsh plugin --profile desktop add github:LeeRolling/dsh-notify-context
 ```
 
 The package declares `dsh.bundle.patch` + `dsh.client`; **restart the client** to
@@ -56,7 +56,7 @@ reinstall.
 ## Uninstall
 
 ```sh
-dsh plugin --profile desktop remove dsh-plugin-desktop-notify
+dsh plugin --profile desktop remove dsh-notify-context
 ```
 
 ## Layout

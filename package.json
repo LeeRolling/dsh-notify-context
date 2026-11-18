@@ -1,6 +1,6 @@
 {
-  "name": "dsh-plugin-desktop-notify",
-  "version": "0.1.0",
+  "name": "dsh-notify-context",
+  "version": "0.2.0",
   "description": "Context-aware desktop notifications for DeepSeek Harness: turn completion, waiting-for-approval, waiting-for-answer — with a per-situation summary, and no interruption while the client is in front. 上下文感知的桌面通知：回合完成 / 等待授权 / 等待回答，按情况给出任务摘要，客户端在前台时不打扰。",
   "type": "module",
   "main": "lib/index.js",
@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeeRolling/dsh-plugin-desktop-notify.git"
+    "url": "git+https://github.com/LeeRolling/dsh-notify-context.git"
   },
-  "homepage": "https://github.com/LeeRolling/dsh-plugin-desktop-notify",
+  "homepage": "https://github.com/LeeRolling/dsh-notify-context",
   "bugs": {
-    "url": "https://github.com/LeeRolling/dsh-plugin-desktop-notify/issues"
+    "url": "https://github.com/LeeRolling/dsh-notify-context/issues"
   },
   "engines": {
     "node": ">=20"
